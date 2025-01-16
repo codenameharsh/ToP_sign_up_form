@@ -15,6 +15,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border: none;
 }
 
 body{
@@ -109,8 +110,13 @@ legend{
   
   input {
     padding: .3rem;
-    border: 1px solid #ccc;
+    border: 1px solid #E5E7EB;
     border-radius: .3rem;
+  }
+
+  input :focus{
+    border-color: blue;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;;
   }
 
 /* button */
@@ -136,7 +142,7 @@ legend{
 }
 
 .create-btn > p > span{
-    color: rgb(82, 126, 82);
+    color: #596D48;
     font-weight: 700;
 } 
 
